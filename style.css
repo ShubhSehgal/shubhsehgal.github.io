@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #222323;
+}
+
+.container1 {
+  background-color: #222323;
+  position: relative;
+  padding: 50px;
+  width: 93%;
+  margin: auto;
+  z-index: 5;
+
+}
+
+/*  background-color: #343b4e;  */
+
+/*.container1 {
+  background-color: #222323;
+  position: relative;
+  padding: 50px;s
+  width: 93%;
+  margin: auto;
+  z-index: 5;
+
+} */
+
+.photo {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background-image: url("shubh.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  position: relative;
+
+}
+
+.line {
+  width: 150px;
+  height: 1px;
+  background-color: #C00202;
+  margin: auto;
+  position: relative;
+  top: 40px;
+}
+
+.iconsbox {
+  margin: auto;
+
+}
+
+.linksbox {
+  margin-top: 50px;
+}
+
+i {
+  margin: 25px;
+  color: white;
+  transition: 0.6s;
+}
+
+i:hover {
+  color: #C00202;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container2 {
+
+}
+
+.intro {
+  margin-top:50px;
+  font-size: 65px;
+  color: white;
+}
+
+.name {
+  font-size: 65px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: whitesmoke;
+}
