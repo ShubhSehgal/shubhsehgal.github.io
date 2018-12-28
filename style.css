@@ -1,18 +1,22 @@
 body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  /*background-color: #222323; */
-  background-color: #061531;
+  background-color: #222323;
+  margin: 0;
+  padding: 0;
+  color: white;
+  /* background-color: #061531; */
 }
 
 .container1 {
-  /*background-color: #222323;*/
-  background-color: #061531;
+  background-color: #222323;
+  /*background-color: #061531;*/
   position: relative;
   padding: 50px;
-  width: 93%;
   margin: auto;
   z-index: 5;
+  text-align: center;
+  color: whitesmoke;
 
 }
 
@@ -60,23 +64,94 @@ a {
   text-decoration: none;
 }
 
-.container2 {
-  align-text: center;
-  color: white;
-
-}
-
 .intro {
   margin-top:50px;
   font-size: 65px;
+  font-weight: 300;
 }
 
 .description {
   font-size: 25px;
   margin-top: 125px;
-  margin-right: 100px;
-  margin-left: 100px;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px;
+  font-weight: 300;
+  background-color: whitesmoke;
+  color: black;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.aboutMe {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.line2 {
+  width: 50px;
+  height: 1px;
+  background-color: #C00202;
+  margin: auto;
+  position: relative;
+  top: -10px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.languagesTable {
+  margin: auto;
+
+}
+
+.languages {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+.skillBar {
+  width: 200px;
+  height: 20px;
+  background-color: #222323;
+}
+
+.pythonSkill {
+  width: 75%;
+  height: 100%;
+  background-color: #C00202;
+}
+
+.javaScriptSkill {
+  width: 80%;
+  height: 100%;
+  background-color: #C00202;
+}
+
+.HTMLSkill {
+  width: 95%;
+  height: 100%;
+  background-color: #C00202;
+}
+
+.letsChat {
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.phoneContainer {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.emailContainer {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
