@@ -4,7 +4,7 @@ body {
   background-color: #222323;
   margin: 0;
   padding: 0;
-  color: white;
+  color: whitesmoke;
   /* background-color: #061531; */
 }
 
@@ -65,9 +65,36 @@ a {
 }
 
 .intro {
-  margin-top:50px;
+  margin: auto;
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.intro h1 {
   font-size: 65px;
-  font-weight: 300;
+  font-weight: 400;
+  overflow: hidden;
+  border-right: 5px solid #C00202;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0px;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #C00202; }
+}
+
+.intro {
+
 }
 
 .description {
@@ -85,7 +112,7 @@ a {
 
 .aboutMe {
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .line2 {
@@ -95,6 +122,10 @@ a {
   margin: auto;
   position: relative;
   top: -10px;
+}
+
+.summary {
+  font-weight: 300;
 }
 
 .skills {
@@ -127,6 +158,12 @@ a {
 
 .javaScriptSkill {
   width: 80%;
+  height: 100%;
+  background-color: #C00202;
+}
+
+.javaSkill {
+  width: 70%;
   height: 100%;
   background-color: #C00202;
 }
