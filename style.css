@@ -151,7 +151,7 @@ a {
 }
 
 .pythonSkill {
-  width: 75%;
+  width: 80%;
   height: 100%;
   background-color: #C00202;
 }
@@ -168,8 +168,14 @@ a {
   background-color: #C00202;
 }
 
+.cSkill {
+  width: 60%;
+  height: 100%;
+  background-color: #C00202;
+}
+
 .HTMLSkill {
-  width: 95%;
+  width: 100%;
   height: 100%;
   background-color: #C00202;
 }
